@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Calendar Styles */
+        .calendar {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .calendar th, .calendar td {
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        .calendar th {
+            background-color: #f2f2f2;
+        }
+
+        .calendar td {
+            padding: 10px;
+        }
+
+        /* Add any additional styles you want here */
+
+    </style>
+</head>
+<body>
+    <table class="calendar">
+        <tr>
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <!-- Add more rows for the remaining weeks in the month -->
+    </table>
+</body>
+</html>
